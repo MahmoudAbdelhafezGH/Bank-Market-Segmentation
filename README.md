@@ -64,4 +64,5 @@ After training, the model's performance is evaluated using metrics such as accur
 ## Results
 The result is visualized in the following confusion matrix figure:
 ![Confusion Matrix](ConfusionMatrix.png)
+
 The model has achieved an Accuracy of 99.3%, Precision 98.6%, Sensitivity_recall 100%, Specificity: 98.6%, F1-Score 99.3%.
