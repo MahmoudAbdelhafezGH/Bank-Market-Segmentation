@@ -27,7 +27,7 @@ def train(model, train_loader):
 
             preds = model.forward(inputs)
 
-            weight = torch.where(targets == 1, torch.tensor([1.0]), torch.tensor([0.01]))
+            weight = torch.where(targets == 1, torch.tensor([1.0]), torch.tensor([0.02]))
             
             loss = cost(preds, targets) * weight
             

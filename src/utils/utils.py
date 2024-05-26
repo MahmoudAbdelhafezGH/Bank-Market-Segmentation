@@ -1,6 +1,6 @@
 import torch
 
-def prepare_train_test_loader(df):
+def split_data(df):
 
     x_tensor = torch.tensor(df.drop(columns=['y']).tail(7000).values, dtype=torch.float32)
 
